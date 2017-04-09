@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+h1 {
+	color:#fff;
+	font-size: 125px;
+	text-align: center;
+	font-weight: 300;
+}
+body {
+	color:white;
+}
+.section-alpha h1 {
+	font-size: 150px;
+	background-color: rgba(33,33,33, .35);
+	margin: 0;
+	padding: 0;
+}
+
+
+.section-alpha h2 {
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 0;
+	padding-bottom: 25px;
+	color: #fff;
+	font-size: 50px;
+	background-color: rgba(33,33,33, .35);
+	text-align: center;
+}
+
+p {
+	color: white;
+	font-size: 28px;
+	font-family: Impact;
+	text-align: center;
+}
+.contact-p {
+	color:white;
+	font-size:28px;
+	font-family: Helvetica;
+}
+ .section-alpha {
+ 	background-image: url('../images/bg-image.jpeg');
+ 	background-repeat: no-repeat;
+ 	background-position: center; 
+ 	background-size: cover;
+ }
+.form-group1 {
+	width: 200px; height: 40px
+}
+#navbar {
+	top: 20px;
+	position: fixed;
+	z-index: 999;
+	right: 7px;
+}
+
+ #navbar li {
+  display: inline-block;
+  margin:0px;
+ }
+
+ #navbar li a {
+  text-decoration: none;
+  color: white;
+  background: rgba(49,53,61, .4);  
+  padding: 10px 15px 10px 15px;
+  margin-left: 5px;
+  border: 2.5px solid #212121;
+  border-radius: 2px 2px;
+ }
+
+ #navbar li a:hover {
+ 	background-color: #1565C0;
+ 	transition: .5s all;
+ }
+ 
